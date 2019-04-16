@@ -1,0 +1,608 @@
+0000.000 (0) Opened log file at time: Tue, 16 Apr 2019 05:15:40 +0000 on http://smarttravelling.tk
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux wordpress-ie-project-vm 4.9.0-8-amd64 #1 SMP Debian 4.9.144-3.1 (2019-02-19) x86_64) MySQL: 8.0.15 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.4M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 6031.1 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.022 (0) Semaphore (fd, wp_options) being initialised
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (fd) time to 2019-04-16 05:15:40
+0000.054 (0) Semaphore lock (fd) complete
+0000.070 (0) Backup run: resumption=0, nonce=0fff2bd9d882, file_nonce=0fff2bd9d882 begun at=1555391740 (1s ago), job type=backup
+0000.079 (0) Scheduling a resumption (1) after 300 seconds (1555392041) in case this run gets aborted
+0000.110 (0) Checking if we have a zip executable available
+0000.115 (0) Testing: /usr/bin/zip
+0000.124 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.127 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.132 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.136 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.144 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.156 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.161 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.167 (0) Working binary zip found: /usr/bin/zip
+0000.177 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.182 (0) Creation of backups of directories: beginning
+0000.197 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.540 (0) Total entities for the zip file: 2240 directories, 11507 files (0 skipped as non-modified), 148.2 MB
+0001.549 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.556 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.563 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.572 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.578 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.584 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.7 MB, 11507 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0003.417 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: size is now: 6.90 MB
+0003.434 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 600 files added (on-disk size: 7017.1 KB)
+0003.442 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 700 files added (on-disk size: 7017.1 KB)
+0003.450 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 800 files added (on-disk size: 7017.1 KB)
+0003.458 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 900 files added (on-disk size: 7017.1 KB)
+0003.468 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1000 files added (on-disk size: 7017.1 KB)
+0003.475 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 11507 files batched, 501 (1002) added so far); re-opening (prior size: 7017.1 KB)
+0004.553 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: size is now: 9.70 MB
+0004.567 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1100 files added (on-disk size: 9889.1 KB)
+0004.573 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1200 files added (on-disk size: 9889.1 KB)
+0004.580 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1300 files added (on-disk size: 9889.1 KB)
+0004.587 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1400 files added (on-disk size: 9889.1 KB)
+0004.593 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1500 files added (on-disk size: 9889.1 KB)
+0004.599 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 11507 files batched, 501 (1503) added so far); re-opening (prior size: 9889.1 KB)
+0005.239 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1600 files added (on-disk size: 10754.5 KB)
+0005.248 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1700 files added (on-disk size: 10754.5 KB)
+0005.254 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1800 files added (on-disk size: 10754.5 KB)
+0005.263 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 1900 files added (on-disk size: 10754.5 KB)
+0005.270 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2000 files added (on-disk size: 10754.5 KB)
+0005.275 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 11507 files batched, 501 (2004) added so far); re-opening (prior size: 10754.5 KB)
+0005.860 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2100 files added (on-disk size: 11568.5 KB)
+0005.871 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2200 files added (on-disk size: 11568.5 KB)
+0005.880 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2300 files added (on-disk size: 11568.5 KB)
+0005.890 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2400 files added (on-disk size: 11568.5 KB)
+0005.899 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2500 files added (on-disk size: 11568.5 KB)
+0005.905 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 11507 files batched, 501 (2505) added so far); re-opening (prior size: 11568.5 KB)
+0006.448 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2600 files added (on-disk size: 12148.4 KB)
+0006.457 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2700 files added (on-disk size: 12148.4 KB)
+0006.465 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2800 files added (on-disk size: 12148.4 KB)
+0006.473 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 2900 files added (on-disk size: 12148.4 KB)
+0006.481 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3000 files added (on-disk size: 12148.4 KB)
+0006.487 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 11507 files batched, 501 (3006) added so far); re-opening (prior size: 12148.4 KB)
+0007.176 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3100 files added (on-disk size: 13929.5 KB)
+0007.182 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3200 files added (on-disk size: 13929.5 KB)
+0007.189 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3300 files added (on-disk size: 13929.5 KB)
+0007.195 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3400 files added (on-disk size: 13929.5 KB)
+0007.201 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3500 files added (on-disk size: 13929.5 KB)
+0007.206 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 11507 files batched, 501 (3507) added so far); re-opening (prior size: 13929.5 KB)
+0008.459 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3600 files added (on-disk size: 15636.7 KB)
+0008.465 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3700 files added (on-disk size: 15636.7 KB)
+0008.472 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3800 files added (on-disk size: 15636.7 KB)
+0008.479 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 3900 files added (on-disk size: 15636.7 KB)
+0008.485 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4000 files added (on-disk size: 15636.7 KB)
+0008.489 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 11507 files batched, 501 (4008) added so far); re-opening (prior size: 15636.7 KB)
+0009.063 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4100 files added (on-disk size: 17394.7 KB)
+0009.068 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4200 files added (on-disk size: 17394.7 KB)
+0009.076 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4300 files added (on-disk size: 17394.7 KB)
+0009.083 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4400 files added (on-disk size: 17394.7 KB)
+0009.088 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4500 files added (on-disk size: 17394.7 KB)
+0009.094 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 11507 files batched, 501 (4509) added so far); re-opening (prior size: 17394.7 KB)
+0010.511 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4600 files added (on-disk size: 18903.5 KB)
+0010.518 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4700 files added (on-disk size: 18903.5 KB)
+0010.524 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4800 files added (on-disk size: 18903.5 KB)
+0010.530 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 4900 files added (on-disk size: 18903.5 KB)
+0010.536 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5000 files added (on-disk size: 18903.5 KB)
+0010.540 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 11507 files batched, 501 (5010) added so far); re-opening (prior size: 18903.5 KB)
+0011.671 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5100 files added (on-disk size: 22328.3 KB)
+0011.677 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5200 files added (on-disk size: 22328.3 KB)
+0011.683 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5300 files added (on-disk size: 22328.3 KB)
+0011.689 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5400 files added (on-disk size: 22328.3 KB)
+0011.695 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5500 files added (on-disk size: 22328.3 KB)
+0011.699 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 11507 files batched, 501 (5511) added so far); re-opening (prior size: 22328.3 KB)
+0013.342 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5600 files added (on-disk size: 25129.2 KB)
+0013.348 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5700 files added (on-disk size: 25129.2 KB)
+0013.356 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5800 files added (on-disk size: 25129.2 KB)
+0013.362 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 5900 files added (on-disk size: 25129.2 KB)
+0013.369 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6000 files added (on-disk size: 25129.2 KB)
+0013.374 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 11507 files batched, 501 (6012) added so far); re-opening (prior size: 25129.2 KB)
+0014.460 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6100 files added (on-disk size: 27167.9 KB)
+0014.468 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6200 files added (on-disk size: 27167.9 KB)
+0014.472 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6300 files added (on-disk size: 27167.9 KB)
+0014.480 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6400 files added (on-disk size: 27167.9 KB)
+0014.486 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6500 files added (on-disk size: 27167.9 KB)
+0014.491 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.8 MB, 11507 files batched, 501 (6513) added so far); re-opening (prior size: 27167.9 KB)
+0016.584 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6600 files added (on-disk size: 31491.9 KB)
+0016.592 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6700 files added (on-disk size: 31491.9 KB)
+0016.598 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6800 files added (on-disk size: 31491.9 KB)
+0016.604 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 6900 files added (on-disk size: 31491.9 KB)
+0016.611 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7000 files added (on-disk size: 31491.9 KB)
+0016.617 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 11507 files batched, 501 (7014) added so far); re-opening (prior size: 31491.9 KB)
+0018.029 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7100 files added (on-disk size: 32217.2 KB)
+0018.035 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7200 files added (on-disk size: 32217.2 KB)
+0018.041 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7300 files added (on-disk size: 32217.2 KB)
+0018.046 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7400 files added (on-disk size: 32217.2 KB)
+0018.052 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7500 files added (on-disk size: 32217.2 KB)
+0018.056 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 11507 files batched, 501 (7515) added so far); re-opening (prior size: 32217.2 KB)
+0019.626 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7600 files added (on-disk size: 34755.8 KB)
+0019.633 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7700 files added (on-disk size: 34755.8 KB)
+0019.639 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7800 files added (on-disk size: 34755.8 KB)
+0019.645 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 7900 files added (on-disk size: 34755.8 KB)
+0019.650 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8000 files added (on-disk size: 34755.8 KB)
+0019.655 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.7 MB, 11507 files batched, 501 (8016) added so far); re-opening (prior size: 34755.8 KB)
+0021.630 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8100 files added (on-disk size: 38727.1 KB)
+0021.636 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8200 files added (on-disk size: 38727.1 KB)
+0021.642 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8300 files added (on-disk size: 38727.1 KB)
+0021.648 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8400 files added (on-disk size: 38727.1 KB)
+0021.662 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8500 files added (on-disk size: 38727.1 KB)
+0021.667 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 11507 files batched, 501 (8517) added so far); re-opening (prior size: 38727.1 KB)
+0024.265 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8600 files added (on-disk size: 40656.3 KB)
+0024.271 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8700 files added (on-disk size: 40656.3 KB)
+0024.277 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8800 files added (on-disk size: 40656.3 KB)
+0024.283 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 8900 files added (on-disk size: 40656.3 KB)
+0024.290 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9000 files added (on-disk size: 40656.3 KB)
+0024.294 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.6 MB, 11507 files batched, 501 (9018) added so far); re-opening (prior size: 40656.3 KB)
+0025.710 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9100 files added (on-disk size: 41218.3 KB)
+0025.716 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9200 files added (on-disk size: 41218.3 KB)
+0025.722 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9300 files added (on-disk size: 41218.3 KB)
+0025.727 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9400 files added (on-disk size: 41218.3 KB)
+0025.733 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9500 files added (on-disk size: 41218.3 KB)
+0025.745 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 11507 files batched, 501 (9519) added so far); re-opening (prior size: 41218.3 KB)
+0027.513 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9600 files added (on-disk size: 42325.5 KB)
+0027.520 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9700 files added (on-disk size: 42325.5 KB)
+0027.526 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9800 files added (on-disk size: 42325.5 KB)
+0027.532 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 9900 files added (on-disk size: 42325.5 KB)
+0027.538 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10000 files added (on-disk size: 42325.5 KB)
+0027.543 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.5 MB, 11507 files batched, 501 (10020) added so far); re-opening (prior size: 42325.5 KB)
+0029.109 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10100 files added (on-disk size: 43682.6 KB)
+0029.116 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10200 files added (on-disk size: 43682.6 KB)
+0029.122 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10300 files added (on-disk size: 43682.6 KB)
+0029.128 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10400 files added (on-disk size: 43682.6 KB)
+0029.134 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10500 files added (on-disk size: 43682.6 KB)
+0029.138 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.5 MB, 11507 files batched, 501 (10521) added so far); re-opening (prior size: 43682.6 KB)
+0031.477 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10600 files added (on-disk size: 44748.4 KB)
+0031.483 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10700 files added (on-disk size: 44748.4 KB)
+0031.488 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10800 files added (on-disk size: 44748.4 KB)
+0031.496 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 10900 files added (on-disk size: 44748.4 KB)
+0031.503 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11000 files added (on-disk size: 44748.4 KB)
+0031.511 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 11507 files batched, 501 (11022) added so far); re-opening (prior size: 44748.4 KB)
+0033.141 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11100 files added (on-disk size: 45920.2 KB)
+0033.150 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11200 files added (on-disk size: 45920.2 KB)
+0033.156 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11300 files added (on-disk size: 45920.2 KB)
+0033.162 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11400 files added (on-disk size: 45920.2 KB)
+0033.168 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip.tmp: 11500 files added (on-disk size: 45920.2 KB)
+0035.680 (0) Created plugins zip (0) - 49824 KB in 35.5 s (1404.4 KB/s) (sha1: 12e47551550aa3bb9ff9d4ecc7ea6b18a9fb94d3, sha256: 19b518ab6bbdd5fa94b73f273587f1944b0f0df64faccdca071c0b0b1b63688d)
+0035.689 (0) Beginning creation of dump of themes (split every: 400 MB)
+0035.888 (0) Total entities for the zip file: 343 directories, 1564 files (0 skipped as non-modified), 27.1 MB
+0035.897 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0035.905 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.912 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0035.919 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0035.926 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0035.930 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 1564 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0036.806 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: size is now: 6.80 MB
+0036.820 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 600 files added (on-disk size: 6934.9 KB)
+0036.826 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 700 files added (on-disk size: 6934.9 KB)
+0036.832 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 800 files added (on-disk size: 6934.9 KB)
+0036.838 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 900 files added (on-disk size: 6934.9 KB)
+0036.844 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1000 files added (on-disk size: 6934.9 KB)
+0036.848 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 1564 files batched, 501 (1002) added so far); re-opening (prior size: 6934.9 KB)
+0038.497 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: size is now: 9.20 MB
+0038.511 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1100 files added (on-disk size: 9374.9 KB)
+0038.517 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1200 files added (on-disk size: 9374.9 KB)
+0038.523 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1300 files added (on-disk size: 9374.9 KB)
+0038.530 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1400 files added (on-disk size: 9374.9 KB)
+0038.535 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: 1500 files added (on-disk size: 9374.9 KB)
+0038.540 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 1564 files batched, 501 (1503) added so far); re-opening (prior size: 9374.9 KB)
+0039.347 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip.tmp: size is now: 11.60 MB
+0039.612 (0) Created themes zip (0) - 12632.1 KB in 3.9 s (3223.5 KB/s) (sha1: 00d36494329a1ef79a6ca27074e60465797b6684, sha256: 3c7468847a6e50c0ee80f8b09d6c4a2e215ad8ecd50f39139e8f58f632465ac0)
+0039.623 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0039.627 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0039.631 (0) finding files: essential-addons-elementor: adding to list (1)
+0039.636 (0) finding files: 2019: adding to list (2)
+0039.641 (0) finding files: elementor: adding to list (3)
+0039.646 (0) finding files: wpallimport: adding to list (4)
+0039.651 (0) finding files: maps-backup: adding to list (5)
+0039.655 (0) finding files: wc-logs: adding to list (6)
+0039.659 (0) finding files: slider5: adding to list (7)
+0039.663 (0) finding files: logos: adding to list (8)
+0039.668 (0) finding files: GeoLite2-Country.mmdb: adding to list (9)
+0039.673 (0) finding files: slider2: adding to list (10)
+0039.678 (0) finding files: woocommerce_uploads: adding to list (11)
+0039.683 (0) finding files: astra-sites: adding to list (12)
+0039.688 (0) finding files: maps-marker-pro: adding to list (13)
+0039.692 (0) finding files: slider3: adding to list (14)
+0039.697 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0039.801 (0) Total entities for the zip file: 28 directories, 1588 files (0 skipped as non-modified), 151.3 MB
+0039.809 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0039.816 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0039.821 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0039.827 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0039.833 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1588 files batched, 477 (477) added so far); re-opening (prior size: 0 KB)
+0041.575 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: size is now: 24.90 MB
+0041.584 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 2.5 s, rate: 10136.9 KB/s)
+0041.593 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.5281729698181, normalised_time=2.5254375544006, max_time=41.588068962097, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0041.601 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 500 files added (on-disk size: 25532.6 KB)
+0041.608 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 600 files added (on-disk size: 25532.6 KB)
+0041.616 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 700 files added (on-disk size: 25532.6 KB)
+0041.624 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 800 files added (on-disk size: 25532.6 KB)
+0041.631 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 900 files added (on-disk size: 25532.6 KB)
+0041.637 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (77.4 MB, 1588 files batched, 501 (978) added so far); re-opening (prior size: 25532.6 KB)
+0044.957 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: size is now: 100.90 MB
+0044.971 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1000 files added (on-disk size: 103352.2 KB)
+0044.978 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1100 files added (on-disk size: 103352.2 KB)
+0044.984 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1200 files added (on-disk size: 103352.2 KB)
+0044.989 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1300 files added (on-disk size: 103352.2 KB)
+0044.996 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1400 files added (on-disk size: 103352.2 KB)
+0045.001 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (47.7 MB, 1588 files batched, 501 (1479) added so far); re-opening (prior size: 103352.2 KB)
+0050.365 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: size is now: 145.80 MB
+0050.388 (0) Zip: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip.tmp: 1500 files added (on-disk size: 149291 KB)
+0056.866 (0) Created uploads zip (0) - 149875.6 KB in 17.2 s (8732.2 KB/s) (sha1: 07e78268490cbb9c985b3fe7fc065caca9b948a6, sha256: cac589d2b8ba68bb04752d85ab3e4d36def18fa8181e16d8cceefcc97a8db798)
+0056.876 (0) Beginning backup of other directories found in the content directory (index: 0)
+0056.881 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0056.885 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0056.890 (0) finding files: mu-plugins: adding to list (1)
+0056.894 (0) finding files: upgrade: skipping: excluded by options
+0056.898 (0) finding files: index.php: adding to list (2)
+0056.902 (0) finding files: lock.txt: adding to list (3)
+0056.906 (0) finding files: updraft: skipping: this is the updraft directory
+0056.910 (0) finding files: themes: skipping: this is the themes directory
+0056.914 (0) finding files: languages: adding to list (4)
+0056.918 (0) finding files: uploads: skipping: this is the uploads directory
+0056.923 (0) finding files: cache: skipping: excluded by options
+0056.927 (0) finding files: plugins: skipping: this is the plugins directory
+0056.939 (0) Total entities for the zip file: 4 directories, 3 files (0 skipped as non-modified), 0 MB
+0056.957 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-others.zip.tmp: size is now: 0.00 MB
+0056.979 (0) Created others zip (0) - 2.4 KB in 0 s (53 KB/s) (sha1: 2b23613a8306089b3207a6915ded1d248af87732, sha256: 23a984ae6c5f96fd880cb723b662a0331e7d17d3054a7fa792390d39f5cb72e7)
+0057.005 (0) Saving backup status to database (elements: 8)
+0057.015 (0) Beginning creation of database dump (WordPress DB)
+0057.026 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0057.223 (0) Binary mysqldump: error (code: 2)
+0057.294 (0) Table wp_options: Total expected rows (approximate): 580
+0057.406 (0) Table wp_options: Total rows added: 587 in 0.11 seconds
+0057.413 (0) Table wp_options: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_options.table.gz - 231.4 KB)
+0057.433 (0) Table wp_users: Total expected rows (approximate): 0
+0057.441 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0057.446 (0) Table wp_users: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_users.table.gz - 0.5 KB)
+0057.464 (0) Table wp_usermeta: Total expected rows (approximate): 37
+0057.472 (0) Table wp_usermeta: Total rows added: 37 in 0.00 seconds
+0057.475 (0) Table wp_usermeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_usermeta.table.gz - 3.1 KB)
+0057.493 (0) Table wp_commentmeta: Total expected rows (approximate): 42
+0057.501 (0) Table wp_commentmeta: Total rows added: 42 in 0.00 seconds
+0057.507 (0) Table wp_commentmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_commentmeta.table.gz - 1.1 KB)
+0057.529 (0) Table wp_comments: Total expected rows (approximate): 22
+0057.536 (0) Table wp_comments: Total rows added: 22 in 0.00 seconds
+0057.540 (0) Table wp_comments: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_comments.table.gz - 1.3 KB)
+0057.562 (0) Table wp_links: Total expected rows (approximate): 0
+0057.604 (0) Table wp_links: Total rows added: 0 in 0.04 seconds
+0057.610 (0) Table wp_links: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_links.table.gz - 0.4 KB)
+0057.630 (0) Table wp_postmeta: Total expected rows (approximate): 3527
+0059.002 (0) Table wp_postmeta: Total rows added: 3484 in 1.37 seconds
+0059.008 (0) Table wp_postmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_postmeta.table.gz - 911.1 KB)
+0059.024 (0) Table wp_posts: Total expected rows (approximate): 687
+0059.177 (0) Table wp_posts: Total rows added: 678 in 0.15 seconds
+0059.985 (0) Table wp_posts: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_posts.table.gz - 84.7 KB)
+0060.001 (0) Table wp_signups: Total expected rows (approximate): 0
+0060.008 (0) Table wp_signups: Total rows added: 0 in 0.00 seconds
+0060.013 (0) Table wp_signups: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_signups.table.gz - 0.5 KB)
+0060.029 (0) Table wp_term_relationships: Total expected rows (approximate): 70
+0060.036 (0) Table wp_term_relationships: Total rows added: 70 in 0.00 seconds
+0060.039 (0) Table wp_term_relationships: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_term_relationships.table.gz - 0.6 KB)
+0060.055 (0) Table wp_term_taxonomy: Total expected rows (approximate): 36
+0060.061 (0) Table wp_term_taxonomy: Total rows added: 36 in 0.00 seconds
+0060.065 (0) Table wp_term_taxonomy: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0060.079 (0) Table wp_termmeta: Total expected rows (approximate): 8
+0060.084 (0) Table wp_termmeta: Total rows added: 10 in 0.00 seconds
+0060.088 (0) Table wp_termmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_termmeta.table.gz - 0.5 KB)
+0060.104 (0) Table wp_terms: Total expected rows (approximate): 36
+0060.109 (0) Table wp_terms: Total rows added: 36 in 0.00 seconds
+0060.113 (0) Table wp_terms: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_terms.table.gz - 0.9 KB)
+0060.128 (0) Table wp_bp_activity: Total expected rows (approximate): 1
+0060.135 (0) Table wp_bp_activity: Total rows added: 1 in 0.00 seconds
+0060.138 (0) Table wp_bp_activity: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_activity.table.gz - 0.6 KB)
+0060.153 (0) Table wp_bp_activity_meta: Total expected rows (approximate): 0
+0060.161 (0) Table wp_bp_activity_meta: Total rows added: 0 in 0.00 seconds
+0060.165 (0) Table wp_bp_activity_meta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_activity_meta.table.gz - 0.4 KB)
+0060.181 (0) Table wp_bp_notifications: Total expected rows (approximate): 0
+0060.187 (0) Table wp_bp_notifications: Total rows added: 0 in 0.00 seconds
+0060.191 (0) Table wp_bp_notifications: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_notifications.table.gz - 0.4 KB)
+0060.208 (0) Table wp_bp_notifications_meta: Total expected rows (approximate): 0
+0060.221 (0) Table wp_bp_notifications_meta: Total rows added: 0 in 0.00 seconds
+0060.226 (0) Table wp_bp_notifications_meta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_notifications_meta.table.gz - 0.4 KB)
+0060.241 (0) Table wp_bp_xprofile_data: Total expected rows (approximate): 1
+0060.248 (0) Table wp_bp_xprofile_data: Total rows added: 1 in 0.00 seconds
+0060.251 (0) Table wp_bp_xprofile_data: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_data.table.gz - 0.4 KB)
+0060.266 (0) Table wp_bp_xprofile_fields: Total expected rows (approximate): 1
+0060.273 (0) Table wp_bp_xprofile_fields: Total rows added: 1 in 0.00 seconds
+0060.277 (0) Table wp_bp_xprofile_fields: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_fields.table.gz - 0.5 KB)
+0060.293 (0) Table wp_bp_xprofile_groups: Total expected rows (approximate): 1
+0060.301 (0) Table wp_bp_xprofile_groups: Total rows added: 1 in 0.00 seconds
+0060.305 (0) Table wp_bp_xprofile_groups: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_groups.table.gz - 0.4 KB)
+0060.321 (0) Table wp_bp_xprofile_meta: Total expected rows (approximate): 0
+0060.327 (0) Table wp_bp_xprofile_meta: Total rows added: 0 in 0.00 seconds
+0060.330 (0) Table wp_bp_xprofile_meta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_meta.table.gz - 0.4 KB)
+0060.346 (0) Table wp_cf_form_entries: Total expected rows (approximate): 15
+0060.352 (0) Table wp_cf_form_entries: Total rows added: 15 in 0.00 seconds
+0060.356 (0) Table wp_cf_form_entries: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entries.table.gz - 0.6 KB)
+0060.371 (0) Table wp_cf_form_entry_meta: Total expected rows (approximate): 1
+0060.376 (0) Table wp_cf_form_entry_meta: Total rows added: 1 in 0.00 seconds
+0060.380 (0) Table wp_cf_form_entry_meta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entry_meta.table.gz - 0.4 KB)
+0060.396 (0) Table wp_cf_form_entry_values: Total expected rows (approximate): 56
+0060.402 (0) Table wp_cf_form_entry_values: Total rows added: 56 in 0.00 seconds
+0060.406 (0) Table wp_cf_form_entry_values: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entry_values.table.gz - 1 KB)
+0060.426 (0) Table wp_cf_forms: Total expected rows (approximate): 39
+0060.452 (0) Table wp_cf_forms: Total rows added: 49 in 0.02 seconds
+0060.458 (0) Table wp_cf_forms: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_forms.table.gz - 9.5 KB)
+0060.474 (0) Table wp_cf_pro_messages: Total expected rows (approximate): 0
+0060.481 (0) Table wp_cf_pro_messages: Total rows added: 0 in 0.00 seconds
+0060.486 (0) Table wp_cf_pro_messages: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_pro_messages.table.gz - 0.3 KB)
+0060.500 (0) Table wp_cf_queue_failures: Total expected rows (approximate): 0
+0060.507 (0) Table wp_cf_queue_failures: Total rows added: 0 in 0.00 seconds
+0060.510 (0) Table wp_cf_queue_failures: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_queue_failures.table.gz - 0.3 KB)
+0060.526 (0) Table wp_cf_queue_jobs: Total expected rows (approximate): 0
+0060.532 (0) Table wp_cf_queue_jobs: Total rows added: 0 in 0.00 seconds
+0060.535 (0) Table wp_cf_queue_jobs: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_queue_jobs.table.gz - 0.4 KB)
+0060.550 (0) Table wp_cp_calculated_fields_form_discount_codes: Total expected rows (approximate): 0
+0060.556 (0) Table wp_cp_calculated_fields_form_discount_codes: Total rows added: 0 in 0.00 seconds
+0060.560 (0) Table wp_cp_calculated_fields_form_discount_codes: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_discount_codes.table.gz - 0.4 KB)
+0060.575 (0) Table wp_cp_calculated_fields_form_posts: Total expected rows (approximate): 0
+0060.580 (0) Table wp_cp_calculated_fields_form_posts: Total rows added: 0 in 0.00 seconds
+0060.586 (0) Table wp_cp_calculated_fields_form_posts: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_posts.table.gz - 0.4 KB)
+0060.601 (0) Table wp_cp_calculated_fields_form_revision: Total expected rows (approximate): 19
+0060.630 (0) Table wp_cp_calculated_fields_form_revision: Total rows added: 19 in 0.02 seconds
+0060.635 (0) Table wp_cp_calculated_fields_form_revision: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_revision.table.gz - 7.8 KB)
+0060.651 (0) Table wp_cp_calculated_fields_form_settings: Total expected rows (approximate): 8
+0060.664 (0) Table wp_cp_calculated_fields_form_settings: Total rows added: 10 in 0.01 seconds
+0060.671 (0) Table wp_cp_calculated_fields_form_settings: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_settings.table.gz - 6.7 KB)
+0060.695 (0) Table wp_create_map: Total expected rows (approximate): 1
+0060.703 (0) Table wp_create_map: Total rows added: 1 in 0.01 seconds
+0060.708 (0) Table wp_create_map: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_create_map.table.gz - 0.9 KB)
+0060.722 (0) Table wp_gmw_forms: Total expected rows (approximate): 0
+0060.728 (0) Table wp_gmw_forms: Total rows added: 0 in 0.00 seconds
+0060.733 (0) Table wp_gmw_forms: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_forms.table.gz - 0.4 KB)
+0060.752 (0) Table wp_gmw_locationmeta: Total expected rows (approximate): 0
+0060.761 (0) Table wp_gmw_locationmeta: Total rows added: 0 in 0.01 seconds
+0060.767 (0) Table wp_gmw_locationmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_locationmeta.table.gz - 0.4 KB)
+0060.785 (0) Table wp_gmw_locations: Total expected rows (approximate): 0
+0060.791 (0) Table wp_gmw_locations: Total rows added: 0 in 0.00 seconds
+0060.795 (0) Table wp_gmw_locations: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_locations.table.gz - 0.7 KB)
+0060.811 (0) Table wp_group_map: Total expected rows (approximate): 0
+0060.816 (0) Table wp_group_map: Total rows added: 0 in 0.00 seconds
+0060.820 (0) Table wp_group_map: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_group_map.table.gz - 0.4 KB)
+0060.836 (0) Table wp_map_locations: Total expected rows (approximate): 0
+0060.843 (0) Table wp_map_locations: Total rows added: 0 in 0.00 seconds
+0060.846 (0) Table wp_map_locations: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_map_locations.table.gz - 0.4 KB)
+0060.863 (0) Table wp_mmp_layers: Total expected rows (approximate): 17
+0060.869 (0) Table wp_mmp_layers: Total rows added: 17 in 0.00 seconds
+0060.873 (0) Table wp_mmp_layers: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_layers.table.gz - 1.6 KB)
+0060.888 (0) Table wp_mmp_maps: Total expected rows (approximate): 4
+0060.895 (0) Table wp_mmp_maps: Total rows added: 4 in 0.00 seconds
+0060.900 (0) Table wp_mmp_maps: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_maps.table.gz - 2.1 KB)
+0060.915 (0) Table wp_mmp_markers: Total expected rows (approximate): 416
+0060.933 (0) Table wp_mmp_markers: Total rows added: 416 in 0.02 seconds
+0060.939 (0) Table wp_mmp_markers: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_markers.table.gz - 9.3 KB)
+0060.957 (0) Table wp_mmp_relationships: Total expected rows (approximate): 416
+0060.965 (0) Table wp_mmp_relationships: Total rows added: 416 in 0.00 seconds
+0060.969 (0) Table wp_mmp_relationships: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_relationships.table.gz - 1.2 KB)
+0060.985 (0) Table wp_nextend2_image_storage: Total expected rows (approximate): 13
+0060.991 (0) Table wp_nextend2_image_storage: Total rows added: 13 in 0.00 seconds
+0060.995 (0) Table wp_nextend2_image_storage: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_image_storage.table.gz - 1 KB)
+0061.013 (0) Table wp_nextend2_section_storage: Total expected rows (approximate): 3
+0061.018 (0) Table wp_nextend2_section_storage: Total rows added: 3 in 0.00 seconds
+0061.021 (0) Table wp_nextend2_section_storage: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_section_storage.table.gz - 0.5 KB)
+0061.036 (0) Table wp_nextend2_smartslider3_generators: Total expected rows (approximate): 0
+0061.043 (0) Table wp_nextend2_smartslider3_generators: Total rows added: 0 in 0.00 seconds
+0061.048 (0) Table wp_nextend2_smartslider3_generators: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_generators.table.gz - 0.3 KB)
+0061.066 (0) Table wp_nextend2_smartslider3_sliders: Total expected rows (approximate): 5
+0061.074 (0) Table wp_nextend2_smartslider3_sliders: Total rows added: 5 in 0.00 seconds
+0061.079 (0) Table wp_nextend2_smartslider3_sliders: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_sliders.table.gz - 4.2 KB)
+0061.098 (0) Table wp_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 4
+0061.105 (0) Table wp_nextend2_smartslider3_sliders_xref: Total rows added: 4 in 0.00 seconds
+0061.110 (0) Table wp_nextend2_smartslider3_sliders_xref: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz - 0.3 KB)
+0061.128 (0) Table wp_nextend2_smartslider3_slides: Total expected rows (approximate): 18
+0061.141 (0) Table wp_nextend2_smartslider3_slides: Total rows added: 18 in 0.01 seconds
+0061.146 (0) Table wp_nextend2_smartslider3_slides: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_slides.table.gz - 5.8 KB)
+0061.165 (0) Table wp_pmxi_files: Total expected rows (approximate): 0
+0061.176 (0) Table wp_pmxi_files: Total rows added: 0 in 0.01 seconds
+0061.182 (0) Table wp_pmxi_files: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_files.table.gz - 0.3 KB)
+0061.204 (0) Table wp_pmxi_history: Total expected rows (approximate): 0
+0061.212 (0) Table wp_pmxi_history: Total rows added: 0 in 0.00 seconds
+0061.218 (0) Table wp_pmxi_history: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_history.table.gz - 0.4 KB)
+0061.237 (0) Table wp_pmxi_images: Total expected rows (approximate): 2
+0061.245 (0) Table wp_pmxi_images: Total rows added: 2 in 0.00 seconds
+0061.250 (0) Table wp_pmxi_images: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_images.table.gz - 0.4 KB)
+0061.268 (0) Table wp_pmxi_imports: Total expected rows (approximate): 0
+0061.274 (0) Table wp_pmxi_imports: Total rows added: 0 in 0.00 seconds
+0061.277 (0) Table wp_pmxi_imports: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_imports.table.gz - 0.6 KB)
+0061.292 (0) Table wp_pmxi_posts: Total expected rows (approximate): 0
+0061.296 (0) Table wp_pmxi_posts: Total rows added: 0 in 0.00 seconds
+0061.300 (0) Table wp_pmxi_posts: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_posts.table.gz - 0.4 KB)
+0061.316 (0) Table wp_pmxi_templates: Total expected rows (approximate): 0
+0061.322 (0) Table wp_pmxi_templates: Total rows added: 0 in 0.00 seconds
+0061.326 (0) Table wp_pmxi_templates: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_templates.table.gz - 0.4 KB)
+0061.342 (0) Table wp_smooth_slider: Total expected rows (approximate): 1
+0061.348 (0) Table wp_smooth_slider: Total rows added: 1 in 0.00 seconds
+0061.351 (0) Table wp_smooth_slider: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider.table.gz - 0.4 KB)
+0061.366 (0) Table wp_smooth_slider_meta: Total expected rows (approximate): 3
+0061.372 (0) Table wp_smooth_slider_meta: Total rows added: 3 in 0.00 seconds
+0061.374 (0) Table wp_smooth_slider_meta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider_meta.table.gz - 0.4 KB)
+0061.394 (0) Table wp_smooth_slider_postmeta: Total expected rows (approximate): 0
+0061.400 (0) Table wp_smooth_slider_postmeta: Total rows added: 0 in 0.00 seconds
+0061.404 (0) Table wp_smooth_slider_postmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider_postmeta.table.gz - 0.3 KB)
+0061.418 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0061.433 (0) Table wp_wc_download_log: Total rows added: 0 in 0.01 seconds
+0061.438 (0) Table wp_wc_download_log: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0061.453 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0061.465 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.01 seconds
+0061.469 (0) Table wp_wc_webhooks: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0061.484 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0061.497 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.01 seconds
+0061.502 (0) Table wp_woocommerce_api_keys: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0061.517 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0061.529 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.01 seconds
+0061.533 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0061.549 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0061.564 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.01 seconds
+0061.569 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0061.585 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0061.597 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.01 seconds
+0061.601 (0) Table wp_woocommerce_log: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0061.617 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0061.624 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0061.629 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0061.647 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0061.653 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0061.658 (0) Table wp_woocommerce_order_items: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0061.673 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0061.685 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.01 seconds
+0061.689 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0061.707 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0061.718 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.01 seconds
+0061.723 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0061.739 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 0
+0061.744 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0061.749 (0) Table wp_woocommerce_sessions: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0061.765 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0061.772 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0061.776 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0061.794 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0061.801 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0061.807 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0061.828 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0061.835 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0061.839 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0061.860 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0061.874 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.01 seconds
+0061.880 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0061.900 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0061.911 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.01 seconds
+0061.917 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0061.937 (0) Table wp_wpgmza: Total expected rows (approximate): 0
+0061.948 (0) Table wp_wpgmza: Total rows added: 1 in 0.00 seconds
+0061.954 (0) Table wp_wpgmza: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza.table.gz - 0.5 KB)
+0061.974 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 0
+0061.981 (0) Table wp_wpgmza_categories: Total rows added: 0 in 0.00 seconds
+0061.986 (0) Table wp_wpgmza_categories: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_categories.table.gz - 0.3 KB)
+0062.006 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 0
+0062.013 (0) Table wp_wpgmza_category_maps: Total rows added: 0 in 0.00 seconds
+0062.018 (0) Table wp_wpgmza_category_maps: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0062.036 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0062.044 (0) Table wp_wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0062.047 (0) Table wp_wpgmza_circles: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_circles.table.gz - 0.3 KB)
+0062.067 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 0
+0062.074 (0) Table wp_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0062.078 (0) Table wp_wpgmza_maps: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_maps.table.gz - 1.2 KB)
+0062.101 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0062.108 (0) Table wp_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0062.114 (0) Table wp_wpgmza_polygon: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0062.134 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0062.142 (0) Table wp_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0062.147 (0) Table wp_wpgmza_polylines: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_polylines.table.gz - 0.3 KB)
+0062.168 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0062.176 (0) Table wp_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0062.180 (0) Table wp_wpgmza_rectangles: finishing file (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_rectangles.table.gz - 0.3 KB)
+0062.197 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_options.table.gz (1/81): adding to final database dump
+0062.303 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_users.table.gz (2/81): adding to final database dump
+0062.309 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_usermeta.table.gz (3/81): adding to final database dump
+0062.315 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_commentmeta.table.gz (4/81): adding to final database dump
+0062.320 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_comments.table.gz (5/81): adding to final database dump
+0062.324 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_links.table.gz (6/81): adding to final database dump
+0062.330 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_postmeta.table.gz (7/81): adding to final database dump
+0063.396 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_posts.table.gz (8/81): adding to final database dump
+0063.468 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_signups.table.gz (9/81): adding to final database dump
+0063.473 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_term_relationships.table.gz (10/81): adding to final database dump
+0063.478 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_term_taxonomy.table.gz (11/81): adding to final database dump
+0063.482 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_termmeta.table.gz (12/81): adding to final database dump
+0063.486 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_terms.table.gz (13/81): adding to final database dump
+0063.490 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_activity.table.gz (14/81): adding to final database dump
+0063.495 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_activity_meta.table.gz (15/81): adding to final database dump
+0063.499 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_notifications.table.gz (16/81): adding to final database dump
+0063.504 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_notifications_meta.table.gz (17/81): adding to final database dump
+0063.510 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_data.table.gz (18/81): adding to final database dump
+0063.515 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_fields.table.gz (19/81): adding to final database dump
+0063.519 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_groups.table.gz (20/81): adding to final database dump
+0063.524 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_bp_xprofile_meta.table.gz (21/81): adding to final database dump
+0063.529 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entries.table.gz (22/81): adding to final database dump
+0063.534 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entry_meta.table.gz (23/81): adding to final database dump
+0063.538 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_form_entry_values.table.gz (24/81): adding to final database dump
+0063.543 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_forms.table.gz (25/81): adding to final database dump
+0063.560 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_pro_messages.table.gz (26/81): adding to final database dump
+0063.565 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_queue_failures.table.gz (27/81): adding to final database dump
+0063.570 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cf_queue_jobs.table.gz (28/81): adding to final database dump
+0063.575 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_discount_codes.table.gz (29/81): adding to final database dump
+0063.581 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_posts.table.gz (30/81): adding to final database dump
+0063.586 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_revision.table.gz (31/81): adding to final database dump
+0063.603 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_cp_calculated_fields_form_settings.table.gz (32/81): adding to final database dump
+0063.614 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_create_map.table.gz (33/81): adding to final database dump
+0063.619 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_forms.table.gz (34/81): adding to final database dump
+0063.624 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_locationmeta.table.gz (35/81): adding to final database dump
+0063.628 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_gmw_locations.table.gz (36/81): adding to final database dump
+0063.633 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_group_map.table.gz (37/81): adding to final database dump
+0063.638 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_map_locations.table.gz (38/81): adding to final database dump
+0063.642 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_layers.table.gz (39/81): adding to final database dump
+0063.647 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_maps.table.gz (40/81): adding to final database dump
+0063.653 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_markers.table.gz (41/81): adding to final database dump
+0063.663 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_mmp_relationships.table.gz (42/81): adding to final database dump
+0063.669 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_image_storage.table.gz (43/81): adding to final database dump
+0063.673 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_section_storage.table.gz (44/81): adding to final database dump
+0063.678 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_generators.table.gz (45/81): adding to final database dump
+0063.682 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_sliders.table.gz (46/81): adding to final database dump
+0063.688 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_sliders_xref.table.gz (47/81): adding to final database dump
+0063.693 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_nextend2_smartslider3_slides.table.gz (48/81): adding to final database dump
+0063.702 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_files.table.gz (49/81): adding to final database dump
+0063.707 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_history.table.gz (50/81): adding to final database dump
+0063.712 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_images.table.gz (51/81): adding to final database dump
+0063.717 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_imports.table.gz (52/81): adding to final database dump
+0063.722 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_posts.table.gz (53/81): adding to final database dump
+0063.727 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_pmxi_templates.table.gz (54/81): adding to final database dump
+0063.732 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider.table.gz (55/81): adding to final database dump
+0063.738 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider_meta.table.gz (56/81): adding to final database dump
+0063.743 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_smooth_slider_postmeta.table.gz (57/81): adding to final database dump
+0063.748 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wc_download_log.table.gz (58/81): adding to final database dump
+0063.753 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wc_webhooks.table.gz (59/81): adding to final database dump
+0063.758 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_api_keys.table.gz (60/81): adding to final database dump
+0063.763 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_attribute_taxonomies.table.gz (61/81): adding to final database dump
+0063.768 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (62/81): adding to final database dump
+0063.773 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_log.table.gz (63/81): adding to final database dump
+0063.777 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_order_itemmeta.table.gz (64/81): adding to final database dump
+0063.782 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_order_items.table.gz (65/81): adding to final database dump
+0063.786 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_payment_tokenmeta.table.gz (66/81): adding to final database dump
+0063.790 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_payment_tokens.table.gz (67/81): adding to final database dump
+0063.795 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_sessions.table.gz (68/81): adding to final database dump
+0063.800 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zone_locations.table.gz (69/81): adding to final database dump
+0063.804 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zone_methods.table.gz (70/81): adding to final database dump
+0063.811 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_shipping_zones.table.gz (71/81): adding to final database dump
+0063.815 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_tax_rate_locations.table.gz (72/81): adding to final database dump
+0063.819 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_woocommerce_tax_rates.table.gz (73/81): adding to final database dump
+0063.823 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza.table.gz (74/81): adding to final database dump
+0063.828 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_categories.table.gz (75/81): adding to final database dump
+0063.831 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_category_maps.table.gz (76/81): adding to final database dump
+0063.836 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_circles.table.gz (77/81): adding to final database dump
+0063.840 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_maps.table.gz (78/81): adding to final database dump
+0063.845 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_polygon.table.gz (79/81): adding to final database dump
+0063.850 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_polylines.table.gz (80/81): adding to final database dump
+0063.854 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db-table-wp_wpgmza_rectangles.table.gz (81/81): adding to final database dump
+0063.861 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db.gz: finished writing out complete database file (1280 KB)
+0063.902 (0) Total database tables backed up: 81 (backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db.gz, size: 1321234, sha256)
+0063.925 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0063.930 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0063.935 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0063.942 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-others.zip: others: This file has not yet been successfully uploaded: will queue
+0063.948 (0) backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db.gz: db: This file has not yet been successfully uploaded: will queue
+0063.953 (0) Saving backup history. Total backup size: 208.6 MB
+0063.963 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0063.978 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0063.983 (0) No remote despatch: user chose no remote backup service
+0063.988 (0) Recording as successfully uploaded: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-plugins.zip
+0063.998 (0) Recording as successfully uploaded: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-themes.zip
+0064.009 (0) Recording as successfully uploaded: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-uploads.zip
+0064.022 (0) Recording as successfully uploaded: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-others.zip
+0064.033 (0) Recording as successfully uploaded: backup_2019-04-16-0515_SMART_TRAVELLING_0fff2bd9d882-db.gz
+0064.051 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0064.056 (0) Number of backup sets in history: 1; groups (db): 1
+0064.061 (0) Examining (for databases) backup set with group_id=0, nonce=0fff2bd9d882, datestamp=1555391740 (Apr 16 2019 05:15:40)
+0064.066 (0) This backup set is the backup set just made, so will not be deleted.
+0064.066 (0) Number of backup sets in history: 1; groups (files): 1
+0064.071 (0) Examining (for files) backup set with nonce=0fff2bd9d882, datestamp=1555391740 (Apr 16 2019 05:15:40)
+0064.071 (0) This backup set is the backup set just made, so will not be deleted.
+0064.076 (0) This backup set is the backup set just made, so will not be deleted.
+0064.076 (0) This backup set is the backup set just made, so will not be deleted.
+0064.076 (0) This backup set is the backup set just made, so will not be deleted.
+0064.076 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0064.081 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0064.092 (0) Resume backup (0fff2bd9d882, 0): finish run
+0064.108 (0) Decremented the semaphore (fd) by 1
+0064.117 (0) Semaphore (fd) unlocked
+0064.123 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0064.139 (0) No email will/can be sent - the user has not configured an email address.
+0064.144 (0) The backup apparently succeeded and is now complete
